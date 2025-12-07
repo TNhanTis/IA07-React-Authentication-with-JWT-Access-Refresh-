@@ -2,10 +2,10 @@ import axios from "axios";
 
 // Use window global or fallback to default backend URL
 const API_BASE_URL =
-  (typeof process !== 'undefined' && process.env?.REACT_APP_API_URL) ||
+  (typeof process !== "undefined" && process.env?.REACT_APP_API_URL) ||
   "https://ia07-react-authentication-with-jwt.onrender.com";
 
-console.log('API_BASE_URL:', API_BASE_URL);
+console.log("API_BASE_URL:", API_BASE_URL);
 
 // Create axios instance
 const api = axios.create({

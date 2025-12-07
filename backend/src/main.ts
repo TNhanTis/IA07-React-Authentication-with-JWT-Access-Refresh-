@@ -9,7 +9,7 @@ async function bootstrap() {
   const allowedOrigins = [
     "http://localhost:3000",
     "https://ia07-react-authentication-with-jwt-access-refresh.vercel.app",
-    "https://ia07-react-authentication-with-jwt-access-refresh-puztmwwad.vercel.app/",
+    "https://ia07-react-authentication-with-jwt-access-refresh-puztmwwad.vercel.app",
   ];
 
   app.enableCors({

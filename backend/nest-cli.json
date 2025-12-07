@@ -1,0 +1,7 @@
+{
+  "name": "nest-cli",
+  "version": "0.0.0",
+  "description": "Nest CLI tool for scaffolding",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src"
+}

@@ -8,7 +8,7 @@ async function bootstrap() {
   // Enable CORS
   const allowedOrigins = [
     "http://localhost:3000",
-    "https://your-vercel-app.vercel.app", // Update this after deploying to Vercel
+    "https://ia07-react-authentication-with-jwt-access-refresh-adnoc62el.vercel.app", // Update this after deploying to Vercel
   ];
 
   app.enableCors({
